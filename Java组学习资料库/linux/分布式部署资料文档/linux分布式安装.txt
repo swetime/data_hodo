@@ -1,0 +1,32 @@
+mysql安装
+https://www.cnblogs.com/wishwzp/p/7113403.html
+
+
+linux下安装rabbitmq
+
+https://www.howtoforge.com/tutorial/how-to-install-rabbitmq-server-on-centos-7/
+
+
+
+远程管理账户
+编辑/etc/rabbitmq/rabbitmq.config文件（没有就新增），添加以下配置就可以了。
+
+
+[ 
+{rabbit, [{tcp_listeners, [5672]}, {loopback_users, ["admin"]}]} 
+].
+
+
+linux下安装redis
+
+https://www.cnblogs.com/onephp/p/6245902.html
+
+
+
+yum命令安装redis
+https://www.cnblogs.com/rslai/p/8249812.html
+
+注意 文章中这些 还有 protected-mode no 进行修改
+
+linux下安装jdk
+https://www.cnblogs.com/zs-notes/p/8535275.html
